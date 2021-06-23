@@ -1,0 +1,19 @@
+{
+  "navbar":{
+    "profil" : "Profile",
+    "order_history" : "Order History",
+    "bill_history" : "Bill History"
+  },
+  "more":"More",
+  "add_to_cart":"Tambah ke keranjang",
+  "price":"Price",
+  "start_from":"Start from",
+  "product_price":"Product price",
+  "shipping_type":"Shipping type",
+  "handling_fee":"Handling fee",
+  "description":"Description",
+  "spesification":"Spesification",
+  "product_recomendation":"Product Recomendation",
+  "buy":"Buy now"
+}
+  

@@ -1,0 +1,41 @@
+{
+  "name": "importir.net",
+  "version": "1.0.0",
+  "description": "Platform network importir",
+  "author": "rts",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "NODE_ENV=production nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/google-tag-manager": "^2.3.1",
+    "bootstrap": "3.3.7",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.1",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^6.3.0",
+    "nuxt-socket-io": "^1.0.18",
+    "sass-loader": "^7.2.0",
+    "socket.io": "^2.3.0",
+    "vee-validate": "^3.2.0",
+    "vue-content-loader": "^0.2.2",
+    "vue-date-fns": "^1.1.0",
+    "vue-slick": "^1.1.15",
+    "vue-swal": "^1.0.0",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "nodemon": "^1.18.9"
+  }
+}

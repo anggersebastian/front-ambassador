@@ -1,0 +1,180 @@
+.order{
+    background: $colorWhite;
+    padding: 0px;
+    padding:0px 15px;
+    border-radius: 3px;
+    box-shadow: $boxShadow;
+    margin-bottom: 3rem;
+    p{
+        margin-bottom: 0px;
+    }
+    &-header{
+        padding:1rem;
+        margin-bottom: 2rem;
+        background: $colorWhite;
+        box-shadow: $boxShadow;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        border-radius: 3px;
+        form{
+            width: 50%;
+            .input-group{
+                width: 100%;
+            }
+        }
+    }
+    &-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #ddd;
+        padding: 1rem 5px;
+        &:last-child{
+            border-bottom: 0px;
+        }
+    }
+
+    &-thumbnail{
+        max-width: 70px;
+    }
+
+    &-id, &-date, &-status, &-action{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &-paging{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    &-detail{
+        margin-bottom: 1rem;
+        .alert{
+            box-shadow: $boxShadow;
+
+            span{
+                display: block;
+            }
+        }
+        &-list{
+            padding: 1rem 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: $boxShadow;
+            margin-bottom:3rem;
+        }
+
+        &-heading{
+            font-size: 20px;
+            padding:5px 0px;
+            margin: 0px;
+            border-bottom: 1px solid #ddd;
+            font-family: $defaultFont;
+            letter-spacing: 1px;
+        }
+
+        &-item{
+            margin-top: 7px;
+            span{
+                display: block;
+                font-size: 12px;
+                margin-bottom: 3px;
+            }
+        }
+
+        &-invoice{
+            
+        }
+
+        &-product{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 10px;
+        }
+        &-thumbnail{
+            width: 70px;
+        }
+
+        &-note{
+            margin-top: 1rem;
+            font-style: italic;
+            background: #ddd;
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 3px;
+        }
+
+        &-info{
+            text-align: right;
+            font-style: italic;
+            font-family: $roboto;
+            font-size: 13px;
+        }
+
+    }
+}
+
+.bill{
+    &-list{
+        padding:0;
+        box-shadow: $boxShadow;
+        border-radius: 3px;
+    }
+    
+    &-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 7px;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        &:last-child{
+            border-bottom: 0px;
+        }
+
+        &:active{
+            &:after{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &:after{
+            content:" ";
+            position: absolute;
+            width:0px;
+            height: 0px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #ddd;
+            transition: all 0.1s;
+            opacity: 0.3;
+        }
+    }
+
+    &-left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-title{
+        font-size: 14px;
+        color:#40403f;
+    }
+    &-sub-title{
+        font-size: 11px;
+        color: #beb8b8;
+    }
+
+    &-right{
+        font-family: $montserrat;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,91 @@
+<template>
+    <content-loader
+        :height="72"
+        :width="848"
+        :speed="2"
+        primary-color="#ffffff"
+        secondary-color="#ecebeb"
+    >
+        <rect
+            x="93"
+            y="12"
+            rx="5"
+            ry="5"
+            width="220"
+            height="6.5"
+        /> 
+        <rect
+            x="7.77"
+            y="9.13"
+            rx="0"
+            ry="0"
+            width="75"
+            height="52"
+        /> 
+        <rect
+            x="362.77"
+            y="28.13"
+            rx="0"
+            ry="0"
+            width="68"
+            height="13"
+        /> 
+        <rect
+            x="529.77"
+            y="17.65"
+            rx="0"
+            ry="0"
+            width="129"
+            height="6"
+        /> 
+        <rect
+            x="529.77"
+            y="32.13"
+            rx="0"
+            ry="0"
+            width="129"
+            height="6"
+        /> 
+        <rect
+            x="532.77"
+            y="49.13"
+            rx="0"
+            ry="0"
+            width="129"
+            height="6"
+        /> 
+        <rect
+            x="769.77"
+            y="19.13"
+            rx="0"
+            ry="0"
+            width="61"
+            height="11"
+        /> 
+        <rect
+            x="769.77"
+            y="37.13"
+            rx="0"
+            ry="0"
+            width="61"
+            height="11"
+        /> 
+        <rect
+            x="94.77"
+            y="25.83"
+            rx="0"
+            ry="0"
+            width="128.7"
+            height="6.5"
+        />
+    </content-loader>
+</template>
+<script>
+import { ContentLoader } from "vue-content-loader"
+
+export default {
+    components: {
+        ContentLoader
+    }
+}
+</script>

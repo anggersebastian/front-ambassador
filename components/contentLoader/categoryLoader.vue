@@ -1,0 +1,61 @@
+<template>
+    <div class="bg-white">
+        <content-loader
+            :height="50"
+            :width="848"
+            :speed="3"
+            primary-color="#f3f3f3"
+            secondary-color="#ecebeb"
+        >
+            <rect
+                x="6"
+                y="9.13"
+                rx="4"
+                ry="4"
+                width="134.55"
+                height="45.16"
+            /> 
+            <rect
+                x="0"
+                y="80"
+                rx="3"
+                ry="3"
+                width="350"
+                height="6.4"
+            /> 
+            <rect
+                x="0"
+                y="100"
+                rx="3"
+                ry="3"
+                width="380"
+                height="6.4"
+            /> 
+            <rect
+                x="0"
+                y="120"
+                rx="3"
+                ry="3"
+                width="201"
+                height="6.4"
+            /> 
+            <rect
+                x="131.6"
+                y="40.13"
+                rx="0"
+                ry="0"
+                width="716.45"
+                height="13.56"
+            />
+        </content-loader>
+    </div>
+</template>
+<script>
+import { ContentLoader } from "vue-content-loader"
+
+export default {
+    components: {
+        ContentLoader
+    }
+}
+</script>

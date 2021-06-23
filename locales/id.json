@@ -1,0 +1,19 @@
+{
+  "navbar":{
+    "profil" : "Profile",
+    "order_history" : "Riwayat belanja",
+    "bill_history" : "Riwayat tagihan"
+  },
+
+  "more":"Selengkapnya",
+  "add_to_cart":"Tambah ke keranjang",
+  "price":"Harga",
+  "start_from":"Mulai dari",
+  "product_price":"Harga produk",
+  "shipping_type":"Jenis pengiriman",
+  "handling_fee":"Biaya penanganan",
+  "description":"Deskripsi",
+  "spesification":"Spesifikasi",
+  "product_recomendation":"Rekomendasi produk",
+  "buy":"Beli"
+}
